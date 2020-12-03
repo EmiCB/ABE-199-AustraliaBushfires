@@ -22,8 +22,9 @@
     box-sizing: border-box;
 }
 body {
+    background-image: url("images/Forest\ Fire\ Background.png");
     background-color: var(--background-color);
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-container {
@@ -41,6 +42,12 @@ h2 {
     color: var(--primary-color);
 }
 
+.header-container {
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(240, 240, 240);
+    margin: 10px auto;
+}
 
 /* Video */
 .video-container { 
@@ -224,8 +231,8 @@ h2 {
     }
 }
 
-    /* team test */
-     /* Three columns side by side */
+/* Person Cards */
+/* Three columns side by side */
 .column {
     float: left;
     width: 33.3%;
@@ -244,6 +251,7 @@ h2 {
 /* Add some shadows to create a card effect */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 /* Some left and right padding inside the container */
